@@ -1,5 +1,5 @@
 module RbMonads
-  class Monad
+  module Monad
     def bind(&f)
       raise NotImplementedError
     end
